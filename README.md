@@ -1,4 +1,7 @@
-# SaryTask
+# Sary Task
+to run project 
+1) json-server --watch db.json
+2) ng s --o
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
