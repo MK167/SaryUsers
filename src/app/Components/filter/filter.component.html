@@ -1,0 +1,53 @@
+<div class="card">
+  <div class="card-body">
+    <h2 class="text-center text-uppercase" style="color: #31343E; font-weight: bold;">Filters</h2>
+    <div>
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body">
+            <input class="form-control mb-4"
+            type="text"
+            name="name"
+            [(ngModel)]="name"
+            (ngModelChange) = "SearchName()"
+            placeholder="Enter Name to Search">
+
+            <input class="form-control mb-4"
+            type="text"
+            name="phone"
+            [(ngModel)]="Phone"
+            (ngModelChange) = "SearchPhone()"
+            placeholder="Enter phone to Search">
+
+            <input class="form-control mb-4"
+            type="text"
+            name="Email"
+            [(ngModel)]="Email"
+            (ngModelChange) = "SearchEmail()"
+            placeholder="Enter Email to Search">
+
+            <input class="form-control mb-4"
+            type="text"
+            name="Company"
+            [(ngModel)]="Company"
+            (ngModelChange) = "SearchCompany()"
+            placeholder="Enter Company to Search">
+
+            <input class="form-control mb-4"
+            type="text"
+            name="Date"
+            [(ngModel)]="Date"
+            (ngModelChange) = "SearchDate()"
+            placeholder="Enter Date to Search">
+
+            <input class="form-control mb-4"
+            type="text"
+            name="Country"
+            [(ngModel)]="Country"
+            (ngModelChange) = "SearchCountry()"
+            placeholder="Enter Country to Search">
+
+        </div>
+      </div>
+    </div>
+</div>
+</div>
